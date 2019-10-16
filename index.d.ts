@@ -17,4 +17,4 @@ export interface BmpData {
 }
 
 export function decode(buffer: Buffer, is_with_alpha: boolean): BmpData;
-export function encode(BmpData): Buffer;
+export function encode(data: BmpData): Buffer;
