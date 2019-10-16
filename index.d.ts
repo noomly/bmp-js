@@ -23,4 +23,4 @@ export interface ImgData {
 }
 
 export function decode(buffer: Buffer, is_with_alpha: boolean): BmpData;
-export function encode(data: ImgData): Buffer;
+export function encode(data: ImgData): ImgData;
